@@ -1,0 +1,241 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Response-Delay: 100
+
+{
+  "request_info": {
+    "success": true,
+    "requests_used": 0,
+    "requests_remaining": 100,
+    "requests_used_this_request": 0,
+    "plan": "Free",
+    "help_message": "To request headlines from a Category pass the category 'id' in the 'category' parameter of the News API, for example: https://api.breakingapi.com/news?apikey=YOUR_API_KEY&type=headlines&category=health"
+  },
+  "locale": {
+    "locale": "en-US",
+    "country": "United States",
+    "language": "English"
+  },
+  "categories": [
+    {
+      "id": "health",
+      "name": "Health",
+      "sub_categories": [
+        {
+          "id": "latest",
+          "name": "Latest"
+        },
+        {
+          "id": "medicine",
+          "name": "Medicine"
+        },
+        {
+          "id": "health-care",
+          "name": "Health care"
+        },
+        {
+          "id": "mental-health",
+          "name": "Mental health"
+        },
+        {
+          "id": "nutrition",
+          "name": "Nutrition"
+        },
+        {
+          "id": "fitness",
+          "name": "Fitness"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "name": "World"
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "sub_categories": [
+        {
+          "id": "latest",
+          "name": "Latest"
+        },
+        {
+          "id": "environment",
+          "name": "Environment"
+        },
+        {
+          "id": "outer-space",
+          "name": "Outer space"
+        },
+        {
+          "id": "physics",
+          "name": "Physics"
+        },
+        {
+          "id": "genetics",
+          "name": "Genetics"
+        },
+        {
+          "id": "wildlife",
+          "name": "Wildlife"
+        }
+      ]
+    },
+    {
+      "id": "country",
+      "name": "U.S."
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "sub_categories": [
+        {
+          "id": "latest",
+          "name": "Latest"
+        },
+        {
+          "id": "movies",
+          "name": "Movies"
+        },
+        {
+          "id": "music",
+          "name": "Music"
+        },
+        {
+          "id": "tv",
+          "name": "TV"
+        },
+        {
+          "id": "books",
+          "name": "Books"
+        },
+        {
+          "id": "art",
+          "name": "Art"
+        },
+        {
+          "id": "celebrities",
+          "name": "Celebrities"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "sub_categories": [
+        {
+          "id": "latest",
+          "name": "Latest"
+        },
+        {
+          "id": "economy",
+          "name": "Economy"
+        },
+        {
+          "id": "markets",
+          "name": "Markets"
+        },
+        {
+          "id": "jobs",
+          "name": "Jobs"
+        },
+        {
+          "id": "personal-finance",
+          "name": "Personal finance"
+        },
+        {
+          "id": "entrepreneurship",
+          "name": "Entrepreneurship"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "sub_categories": [
+        {
+          "id": "latest",
+          "name": "Latest"
+        },
+        {
+          "id": "mobile",
+          "name": "Mobile"
+        },
+        {
+          "id": "gadgets",
+          "name": "Gadgets"
+        },
+        {
+          "id": "internet",
+          "name": "Internet"
+        },
+        {
+          "id": "virtual-reality",
+          "name": "Virtual reality"
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "computing",
+          "name": "Computing"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "sub_categories": [
+        {
+          "id": "latest",
+          "name": "Latest"
+        },
+        {
+          "id": "nfl",
+          "name": "NFL"
+        },
+        {
+          "id": "nba",
+          "name": "NBA"
+        },
+        {
+          "id": "mlb",
+          "name": "MLB"
+        },
+        {
+          "id": "nhl",
+          "name": "NHL"
+        },
+        {
+          "id": "ncaa-football",
+          "name": "NCAA Football"
+        },
+        {
+          "id": "ncaa-basketball",
+          "name": "NCAA Basketball"
+        },
+        {
+          "id": "soccer",
+          "name": "Soccer"
+        },
+        {
+          "id": "nascar",
+          "name": "NASCAR"
+        },
+        {
+          "id": "golf",
+          "name": "Golf"
+        },
+        {
+          "id": "tennis",
+          "name": "Tennis"
+        },
+        {
+          "id": "wnba",
+          "name": "WNBA"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mock-server-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iHugoFlores/Mock-Server-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iHugoFlores/Mock-Server-Test/issues"
+  },
+  "homepage": "https://github.com/iHugoFlores/Mock-Server-Test#readme",
+  "dependencies": {
+    "mockserver": "^3.1.1",
+    "node-mock-server": "^0.25.4"
+  }
+}

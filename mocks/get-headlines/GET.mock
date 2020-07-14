@@ -1,0 +1,148 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Response-Delay: 100
+
+{
+    "request_info": {
+        "success": true,
+        "credits_used": 75,
+        "credits_remaining": 25
+    },
+    "request_metadata": {
+        "created_at": "2020-07-04T22:46:10.986Z",
+        "processed_at": "2020-07-04T22:46:13.230Z",
+        "total_time_taken": 2.24,
+        "total_results": 7,
+        "timing": [
+            "global_init - 0ms (total 0ms)",
+            "auth_apikey - 52ms (total 52ms)",
+            "auth_retrieve_plan - 46ms (total 99ms)",
+            "auth_retrieve_credit_usage - 105ms (total 205ms)",
+            "processing_invoking_worker - 2ms (total 207ms)",
+            "processing_execution_complete - 2244ms (total 2452ms)",
+            "auth_credit_usage_reconcile - 112ms (total 2564ms)",
+            "global_end - 0ms (total 2564ms)"
+        ]
+    },
+    "request_parameters": {
+        "type": "headlines",
+        "locale": "zh-cn"
+    },
+    "articles": [
+        {
+            "link": "http://www.sohu.com/a/405777937_114988",
+            "title": "世纪坛医院检测核酸可自助开单“流调”_采样",
+            "snippet": "7月3日，同仁医院新“方舱”核酸样本采集处。 新京报记者王嘉宁摄. 近日，北京新冠肺炎疫情防控工作领导小组召开第七十三次会议，会议强调，要持续抓好核酸检测 ...",
+            "date_published": "2020-07-04T18:31:00.000Z",
+            "source": {
+                "id": "搜狐",
+                "domain": "www.sohu.com",
+                "name": "搜狐",
+                "logo": "https://api.breakingapi.com/download/logos/搜狐.png",
+                "locales": [
+                    "zh-CN",
+                    "zh-cn"
+                ]
+            }
+        },
+        {
+            "link": "http://www.bjnews.com.cn/news/2020/07/05/745320.html",
+            "title": "北京连续6天本地确诊病例为个位数",
+            "snippet": "7月4日，北京市举行新冠肺炎疫情防控工作第141场新闻发布会。新京报记者王飞摄扫码查看“京8条”全文7月3日新增病例曾到物美等超...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/DFB2347503C84C7988E4B109A0B853C3",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/DFB2347503C84C7988E4B109A0B853C3"
+            ],
+            "date_published": "2020-07-04T18:30:23.000Z",
+            "source": {
+                "id": "新京报",
+                "domain": "www.bjnews.com.cn",
+                "name": "新京报",
+                "logo": "https://api.breakingapi.com/download/logos/新京报.png",
+                "locales": [
+                    "zh-CN",
+                    "zh-cn"
+                ]
+            }
+        },
+        {
+            "link": "http://www.takungpao.com/news/232108/2020/0705/471059.html",
+            "title": "\ufeff公安部：全力指导支持港警惩治危害国安罪行",
+            "snippet": "【大公报讯】据中新社报道：中国国务委员、公安部部长赵克志4日主持召开公安部党委（扩大）会议，传达学习领会习近平总书记在主持中央政治局第二十一次集体学习时 ...",
+            "date_published": "2020-07-04T20:24:09.000Z",
+            "source": {
+                "id": "大公网",
+                "domain": "www.takungpao.com",
+                "name": "大公网",
+                "locales": [
+                    "zh-cn"
+                ]
+            }
+        },
+        {
+            "link": "https://finance.sina.com.cn/roll/2020-07-03/doc-iirczymm0395441.shtml",
+            "title": "大洋网评：银行“补血”，精准“滴灌”中小微企业",
+            "snippet": "大洋网评：银行“补血”，精准“滴灌”中小微企业 国务院总理李克强7月1日主持召开国务院常务会议，决定着眼增强金融服务中小微企业能力，允许地方政府专项债合理 ...",
+            "date_published": "2020-07-03T14:08:03.000Z",
+            "source": {
+                "domain": "finance.sina.com.cn"
+            }
+        },
+        {
+            "link": "https://news.sina.com.cn/c/2020-07-02/doc-iirczymm0047048.shtml",
+            "title": "重磅！国务院常务会，决定三件大事！",
+            "snippet": "原标题：重磅！国务院常务会，决定三件大事！ 决定着眼增强金融服务中小微企业能力，允许地方政府专项债合理支持中小银行补充资本金；通过《保障中小企业款项 ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/96EE656FB03943D9993AAA6A48197BC6",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/96EE656FB03943D9993AAA6A48197BC6"
+            ],
+            "date_published": "2020-07-02T01:44:41.000Z",
+            "source": {
+                "id": "新浪网",
+                "domain": "news.sina.com.cn",
+                "name": "新浪网",
+                "logo": "https://api.breakingapi.com/download/logos/新浪网.png",
+                "locales": [
+                    "zh-CN",
+                    "zh-cn"
+                ]
+            }
+        },
+        {
+            "link": "http://www.bjd.com.cn/a/202007/04/WS5effcd2be4b00aba04d24e0d.html",
+            "title": "北京新增1例确诊病例在丰台区，治愈出院2例",
+            "snippet": "7月3日0时至24时，北京新增报告本地确诊病例1例、疑似病例1例，无新增无症状感染者，治愈出院病例2例；无新增报告境外输入确诊病例、疑似病例、无症状感染者。",
+            "primary_image_link": "https://api.breakingapi.com/download/images/D4C4569E3E6246B399592C3C9BFAF67C",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/D4C4569E3E6246B399592C3C9BFAF67C"
+            ],
+            "date_published": "2020-07-04T00:29:18.000Z",
+            "source": {
+                "id": "京报网",
+                "domain": "www.bjd.com.cn",
+                "name": "京报网",
+                "logo": "https://api.breakingapi.com/download/logos/京报网.png",
+                "locales": [
+                    "zh-CN",
+                    "zh-cn"
+                ]
+            }
+        },
+        {
+            "link": "http://www.chinanews.com/gn/2020/07-03/9229040.shtml",
+            "title": "汪洋在全国政协委员读书活动综合线下交流会上强调推动读书活动不断深入切实提高履职水平-中新网",
+            "snippet": "全国政协委员读书活动综合线下交流会3日在京举行。汪洋强调，委员读书活动要着力探索政协的特色和优势，有效整合力量，推动委员读书活动有特点、出亮点。",
+            "date_published": "2020-07-03T13:52:58.000Z",
+            "source": {
+                "id": "中国新闻网",
+                "domain": "www.chinanews.com",
+                "name": "中国新闻网",
+                "logo": "https://api.breakingapi.com/download/logos/中国新闻网.png",
+                "locales": [
+                    "zh-CN",
+                    "zh-cn"
+                ]
+            }
+        }
+    ]
+}
