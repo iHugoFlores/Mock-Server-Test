@@ -1,0 +1,618 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Response-Delay: 100
+
+{
+    "request_info": {
+        "success": true,
+        "credits_used": 13,
+        "credits_remaining": 87
+    },
+    "request_metadata": {
+        "created_at": "2020-08-04T13:51:54.491Z",
+        "processed_at": "2020-08-04T13:51:56.493Z",
+        "total_time_taken": 2,
+        "total_results": 20,
+        "timing": [
+            "global_init - 0ms (total 0ms)",
+            "auth_apikey - 63ms (total 63ms)",
+            "auth_retrieve_plan - 123ms (total 187ms)",
+            "auth_retrieve_credit_usage - 116ms (total 304ms)",
+            "processing_invoking_worker - 120ms (total 425ms)",
+            "processing_execution_complete - 2002ms (total 2427ms)",
+            "auth_credit_usage_reconcile - 84ms (total 2511ms)",
+            "global_end - 0ms (total 2511ms)"
+        ]
+    },
+    "request_parameters": {
+        "type": "headlines",
+        "locale": "es-MX",
+        "category": "science"
+    },
+    "articles": [
+        {
+            "link": "https://generacionxbox.com/project-xcloud-controles-tactiles-movil/",
+            "title": "Project xCloud ya permite usar controles táctiles en móvil",
+            "snippet": "Ya puedes probar los controles táctiles de Project xCloud en Hellblade. De momento parece estar en pruebas.",
+            "primary_image_link": "https://api.breakingapi.com/download/images/6139F2C0798F46CFABA72767B6AFB485",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/6139F2C0798F46CFABA72767B6AFB485"
+            ],
+            "date_published": "2020-08-03T19:56:40.000Z",
+            "source": {
+                "id": "generacion-xbox",
+                "domain": "generacionxbox.com",
+                "name": "Generación Xbox",
+                "logo": "https://api.breakingapi.com/download/logos/generacion-xbox.png",
+                "locales": [
+                    "es-AR",
+                    "es-CO",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-VE",
+                    "es-CL",
+                    "es-US"
+                ]
+            }
+        },
+        {
+            "link": "https://www.vidaextra.com/android/xbox-game-pass-llegara-a-android-15-septiembre-gracias-al-juego-nube-project-xcloud",
+            "title": "Xbox Game Pass llegará a Android el 15 de septiembre gracias al juego en la nube de Project xCloud",
+            "primary_author": "R. Márquez",
+            "authors": [
+                "R. Márquez"
+            ],
+            "snippet": "Microsoft sigue dando forma a su apuesta por Game Pass con la llegada de Project xCloud, el servicio de juego en la nube que estará disponible en ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/2BEF689F07834A55BD1CF179956434FF",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/2BEF689F07834A55BD1CF179956434FF"
+            ],
+            "date_published": "2020-08-04T13:01:00.000Z",
+            "source": {
+                "id": "vida-extra",
+                "domain": "www.vidaextra.com",
+                "name": "Vida Extra",
+                "logo": "https://api.breakingapi.com/download/logos/vida-extra.png",
+                "locales": [
+                    "es-AR",
+                    "es-CO",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-CL",
+                    "es-US"
+                ]
+            }
+        },
+        {
+            "link": "https://www.somosxbox.com/accesorios-para-juegos-moviles-disenado-por-xbox/871696",
+            "title": "Presentamos lo último en accesorios para juegos móviles diseñado por Xbox | SomosXbox",
+            "primary_author": "Cristian Bustamante",
+            "authors": [
+                "Cristian Bustamante"
+            ],
+            "snippet": "Presentamos lo último enaccesorios para juegos móviles diseñado por Xbox. Desde que se anunció xCloud, uno de los proyectos más ambiciosos de Microsoft ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/9486B42B0E474891B9D0A98EC4580342",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/9486B42B0E474891B9D0A98EC4580342"
+            ],
+            "date_published": "2020-08-04T13:00:26.000Z",
+            "source": {
+                "id": "somosxbox",
+                "domain": "www.somosxbox.com",
+                "name": "SomosXbox",
+                "logo": "https://api.breakingapi.com/download/logos/somosxbox.png",
+                "locales": [
+                    "es-PE",
+                    "es-MX",
+                    "es-CU",
+                    "es-AR",
+                    "es-US",
+                    "es-CO",
+                    "es-CL"
+                ]
+            }
+        },
+        {
+            "link": "https://generacionxbox.com/puedes-predescargar-battletoads-en-xbox-one-pc/",
+            "title": "Ya puedes predescargar Battletoads en Xbox One y PC",
+            "snippet": "Dentro de unas semanas tendremos disponible la nueva entrega de Battletoads desarrollado por Rare y producido por Microsoft. Estará disponible para Xbox ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/EF674022B672400889BE011BCBF1D071",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/EF674022B672400889BE011BCBF1D071"
+            ],
+            "date_published": "2020-08-04T12:00:58.000Z",
+            "source": {
+                "id": "generacion-xbox",
+                "domain": "generacionxbox.com",
+                "name": "Generación Xbox",
+                "logo": "https://api.breakingapi.com/download/logos/generacion-xbox.png",
+                "locales": [
+                    "es-AR",
+                    "es-CO",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-VE",
+                    "es-CL",
+                    "es-US"
+                ]
+            }
+        },
+        {
+            "link": "https://www.vidaextra.com/xbox-one/juegos-xbox-game-pass-movil-asi-como-podras-jugar-controles-tactiles",
+            "title": "Los juegos de Xbox y Game Pass en el móvil: así es como podrás jugar con controles táctiles",
+            "primary_author": "R. Márquez",
+            "authors": [
+                "R. Márquez"
+            ],
+            "snippet": "Tras una buena temporada en pruebas, las próximas semanas prometen ser claves para la llegada del proyecto xCloud. Jugar a nuestros juegos de Xbox One ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/5B297072D16A42E88503B079DACE115C",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/5B297072D16A42E88503B079DACE115C"
+            ],
+            "date_published": "2020-08-04T07:51:00.000Z",
+            "source": {
+                "id": "vida-extra",
+                "domain": "www.vidaextra.com",
+                "name": "Vida Extra",
+                "logo": "https://api.breakingapi.com/download/logos/vida-extra.png",
+                "locales": [
+                    "es-AR",
+                    "es-CO",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-CL",
+                    "es-US"
+                ]
+            }
+        },
+        {
+            "link": "https://www.eluniversal.com.mx/techbit/iniciar-sesion-en-varios-dispositivos-entre-las-novedades-de-whatsapp",
+            "title": "Iniciar sesión en varios dispositivos: entre las novedades de WhatsApp | El Universal",
+            "snippet": "WhatsApp tiene en prueba varias herramientas que de implementarse, serán muy útiles para los usuarios de la app.",
+            "primary_image_link": "https://api.breakingapi.com/download/images/17BFCB2D8C374136A83A939B70A30CC0",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/17BFCB2D8C374136A83A939B70A30CC0"
+            ],
+            "date_published": "2020-08-04T00:36:09.000Z",
+            "source": {
+                "id": "el-universal",
+                "domain": "www.eluniversal.com.mx",
+                "name": "El Universal",
+                "logo": "https://api.breakingapi.com/download/logos/el-universal.png",
+                "locales": [
+                    "es-AR",
+                    "es-CL",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-US",
+                    "es-VE"
+                ],
+                "description": "El Universal is a major Mexican newspaper.\nEl Universal was founded by Félix Palavicini and Emilio Rabasa in October 1916, in the city of Santiago de Queretaro to cover the end of the Mexican Revolution and the creation of the new Mexican Constitution."
+            }
+        },
+        {
+            "link": "https://holatelcel.com/tecnologia/whatsapp-limitara-uso-de-los-stickers-en-los-chats/",
+            "title": "WhatsApp limitará el uso de los stickers en los chats",
+            "snippet": "WhatsApp pronto comenzará a limitar los stickers animados que utilizan los chats con tus amigos. Descubre aquí la verdadera razón de esta decisión.",
+            "primary_image_link": "https://api.breakingapi.com/download/images/1D3232E085CE4C2A9477EC96720C9A21",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/1D3232E085CE4C2A9477EC96720C9A21"
+            ],
+            "date_published": "2020-08-03T22:36:12.000Z",
+            "source": {
+                "id": "holatelcel",
+                "domain": "holatelcel.com",
+                "name": "holatelcel",
+                "logo": "https://api.breakingapi.com/download/logos/holatelcel.png",
+                "locales": [
+                    "es-VE",
+                    "es-MX",
+                    "es-US",
+                    "es-CO",
+                    "es-CL",
+                    "es-PE",
+                    "es-AR",
+                    "es-CU"
+                ]
+            }
+        },
+        {
+            "link": "https://www.mediotiempo.com/otros-mundos/tecnologia/whatsapp-prohibira-algunos-stickers-por-que-y-cuales-son",
+            "title": "WhatsApp prohibirá uso de stickers animados; ¿por qué y cuáles son?",
+            "primary_author": "Editorial Mediotiempo",
+            "authors": [
+                "Editorial Mediotiempo"
+            ],
+            "snippet": "El portal especializado WABetaInfo reveló que WhatsApp limitará el uso de algunos stickers porque ¡hasta películas están compartiendo!",
+            "primary_image_link": "https://api.breakingapi.com/download/images/0B646E4D173D4A4D8677EA2C9C192C92",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/0B646E4D173D4A4D8677EA2C9C192C92"
+            ],
+            "date_published": "2020-08-03T18:38:19.000Z",
+            "source": {
+                "id": "mediotiempo",
+                "domain": "www.mediotiempo.com",
+                "name": "Mediotiempo",
+                "logo": "https://api.breakingapi.com/download/logos/mediotiempo.png",
+                "locales": [
+                    "es-MX",
+                    "es-US",
+                    "es-VE",
+                    "es-CL",
+                    "es-CU",
+                    "es-PE",
+                    "es-CO",
+                    "es-AR"
+                ],
+                "description": "In several team sports, matches are played in two halves. Half-time is the name given to the interval between the two halves of the match. Typically, after half-time teams swap ends of the field of play, in order to reduce any advantage that may be gained from wind or a slope to the playing surface, for example."
+            }
+        },
+        {
+            "link": "https://www.eluniversal.com.mx/techbit/silenciar-grupos-para-siempre-e-iniciar-sesion-en-varios-dispositivos-entre-las-novedades-de",
+            "title": "Silenciar grupos para siempre e iniciar sesión en varios dispositivos: entre las novedades de WhatsApp | El Universal",
+            "snippet": "WhatsApp tiene en prueba varias herramientas que de implementarse, serán muy útiles para los usuarios de la app.",
+            "primary_image_link": "https://api.breakingapi.com/download/images/65AE14C49E0540DDB9D185B9110E147A",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/65AE14C49E0540DDB9D185B9110E147A"
+            ],
+            "date_published": "2020-08-04T00:36:09.000Z",
+            "source": {
+                "id": "el-universal",
+                "domain": "www.eluniversal.com.mx",
+                "name": "El Universal",
+                "logo": "https://api.breakingapi.com/download/logos/el-universal.png",
+                "locales": [
+                    "es-AR",
+                    "es-CL",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-US",
+                    "es-VE"
+                ],
+                "description": "El Universal is a major Mexican newspaper.\nEl Universal was founded by Félix Palavicini and Emilio Rabasa in October 1916, in the city of Santiago de Queretaro to cover the end of the Mexican Revolution and the creation of the new Mexican Constitution."
+            }
+        },
+        {
+            "link": "https://noticieros.televisa.com/historia/donde-descargar-stickers-gratis-para-whatsapp/",
+            "title": "¿Dónde descargar gratis los stickers más divertidos para WhatsApp?",
+            "primary_author": "gabriel",
+            "authors": [
+                "gabriel"
+            ],
+            "snippet": "Los stickers nos ayudan a darle más vida a nuestras conversaciones en WhatsApp; te decimos dónde puedes descargar gratuitamente una gran variedad de ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/F91CE6A90878491CA7507CA64F8A6313",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/F91CE6A90878491CA7507CA64F8A6313"
+            ],
+            "date_published": "2020-08-03T16:13:00.000Z",
+            "source": {
+                "id": "noticieros-televisa",
+                "domain": "noticieros.televisa.com",
+                "name": "Noticieros Televisa",
+                "logo": "https://api.breakingapi.com/download/logos/noticieros-televisa.png",
+                "locales": [
+                    "es-MX",
+                    "es-PE",
+                    "es-AR",
+                    "es-US",
+                    "es-CO",
+                    "es-CL",
+                    "es-VE"
+                ]
+            }
+        },
+        {
+            "link": "https://www.xatakandroid.com/aplicaciones-android/asistente-google-ofrecera-su-nueva-experiencia-espanol-proximamente-estas-sus-novedades",
+            "title": "El Asistente de Google ofrecerá su nueva experiencia en español proximamente: estas son sus novedades",
+            "primary_author": "Cosmos",
+            "authors": [
+                "Cosmos"
+            ],
+            "snippet": "Tras meses de rumores y filtraciones, el nuevo Pixel 4a ya es una realidad. El próximo móvil de gama media de Google llegará al mercado en octubre y entre ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/D6DA03F182C74645A9C4071E10610980",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/D6DA03F182C74645A9C4071E10610980"
+            ],
+            "date_published": "2020-08-03T21:23:00.000Z",
+            "source": {
+                "id": "xataka-android",
+                "domain": "www.xatakandroid.com",
+                "name": "Xataka Android",
+                "logo": "https://api.breakingapi.com/download/logos/xataka-android.png",
+                "locales": [
+                    "es-AR",
+                    "es-CL",
+                    "es-CU",
+                    "es-MX",
+                    "es-VE",
+                    "es-CO",
+                    "es-PE",
+                    "es-US"
+                ]
+            }
+        },
+        {
+            "link": "https://www.xataka.com.mx/celulares-y-smartphones/pixel-4a-mejor-google-fotografia-software-empaque-pequeno-barato",
+            "title": "Pixel 4a: lo mejor de Google en fotografía y software en un empaque más pequeño y barato",
+            "primary_author": "Antonio Cahun",
+            "authors": [
+                "Antonio Cahun"
+            ],
+            "snippet": "Desde el año pasado aparecieron las primeras filtraciones, se prolongaron por meses, y tras una larga, en verdad larga esperaa, por fin el Pixel 4a está aquí,...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/B66CF0DF906D4A468DAED074C0D13252",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/B66CF0DF906D4A468DAED074C0D13252"
+            ],
+            "date_published": "2020-08-03T15:00:00.000Z",
+            "source": {
+                "id": "xataka-mexico",
+                "domain": "www.xataka.com.mx",
+                "name": "Xataka México",
+                "logo": "https://api.breakingapi.com/download/logos/xataka-mexico.png",
+                "locales": [
+                    "es-MX",
+                    "es-PE",
+                    "es-AR",
+                    "es-CU",
+                    "es-VE",
+                    "es-CL",
+                    "es-US",
+                    "es-CO"
+                ]
+            }
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=rllK3Nefrj0",
+            "title": "Pixel 4a | GOOGLE se COMPLICA la vida",
+            "date_published": "2020-08-03T15:00:27.000Z",
+            "source": {
+                "domain": "www.youtube.com"
+            }
+        },
+        {
+            "link": "https://www.infobae.com/america/agencias/2020/08/03/portaltic-google-lanzara-en-otono-su-buque-insignia-pixel-5-compatible-con-5g/",
+            "title": "Portaltic.-Google lanzará en otoño su buque insignia Pixel 5, compatible con 5G",
+            "primary_author": "Infobae Newsroom",
+            "authors": [
+                "Infobae Newsroom"
+            ],
+            "snippet": "MADRID, 3 (Portaltic/EP) Google ha sorprendido y ha acompañado la presentación de su nuevo terminal de gama media Pixel 4a, celebrada este lunes, del ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/4266CA90DD8548DD8BDB876174DF05BA",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/4266CA90DD8548DD8BDB876174DF05BA"
+            ],
+            "date_published": "2020-08-03T15:32:30.000Z",
+            "source": {
+                "id": "infobae",
+                "domain": "www.infobae.com",
+                "name": "infobae",
+                "logo": "https://api.breakingapi.com/download/logos/infobae.png",
+                "locales": [
+                    "es-AR",
+                    "es-MX",
+                    "es-CL",
+                    "es-CO",
+                    "es-CU",
+                    "es-PE",
+                    "es-US",
+                    "es-VE",
+                    "es-mx"
+                ],
+                "description": "Infobae is a news website that was created in Argentina in 2002 by businessman Daniel Hadad. Originally, it was the online edition of the daily Buenos Aires Económico that Hadad had acquired in 2000. In April 2007, the print edition of BAE was sold again to businessman Sergio Szpolski."
+            }
+        },
+        {
+            "link": "https://www.marca.com/claro-mx/trending/2020/08/04/5f28b507e2704e5a0d8b45d7.html",
+            "title": "Google Pixel 4a: económico, pequeño y gran definición",
+            "snippet": "Luego de tantas filtraciones y un largo tiempo de espera, se revela el Google Pixel 4a, un nuevo teléfono con lo mejor del megabuscador, aunque los...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/487A7E55871C489E8C5852F1594C29A7",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/487A7E55871C489E8C5852F1594C29A7"
+            ],
+            "date_published": "2020-08-04T01:08:00.000Z",
+            "source": {
+                "id": "marca-com",
+                "domain": "www.marca.com",
+                "name": "Marca Claro México",
+                "logo": "https://api.breakingapi.com/download/logos/marca-com.png",
+                "locales": [
+                    "es-AR",
+                    "en-NG",
+                    "es-CU",
+                    "en-GH",
+                    "es-MX",
+                    "es-PE",
+                    "es-US",
+                    "en-ID",
+                    "en-KE",
+                    "en-UG",
+                    "en-ZW",
+                    "en-BW",
+                    "en-ET",
+                    "en-IN",
+                    "en-IL",
+                    "en-LV",
+                    "en-MY",
+                    "en-NA",
+                    "en-PK",
+                    "en-TZ",
+                    "en-GB",
+                    "en-SG",
+                    "en-IE",
+                    "en-NZ",
+                    "en-ZA",
+                    "en-PH",
+                    "en-CA",
+                    "en-US",
+                    "es-VE",
+                    "es-CL",
+                    "es-CO",
+                    "en-AU"
+                ]
+            }
+        },
+        {
+            "link": "https://www.forbes.com.mx/fotogaleria-asi-fue-el-exitoso-retorno-de-la-capsula-spacex-a-la-tierra/",
+            "title": "Fotogalería: Así fue el exitoso retorno de la cápsula SpaceX a la Tierra",
+            "primary_author": "Foto Forbes",
+            "authors": [
+                "Foto Forbes"
+            ],
+            "snippet": "Musk, un empresario multimillonario, convirtió a SpaceX en la primera empresa privada en enviar humanos a órbita con el vuelo de Behnken y Hurley, que ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/9C567F14FBC04770ACD3EEE7FB2CCE65",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/9C567F14FBC04770ACD3EEE7FB2CCE65"
+            ],
+            "date_published": "2020-08-03T15:15:00.000Z",
+            "source": {
+                "id": "forbes-mexico",
+                "domain": "www.forbes.com.mx",
+                "name": "Forbes México ",
+                "logo": "https://api.breakingapi.com/download/logos/forbes-mexico.png",
+                "locales": [
+                    "es-PE",
+                    "es-MX",
+                    "es-US",
+                    "es-CO",
+                    "es-CL",
+                    "es-VE",
+                    "es-CU",
+                    "es-AR"
+                ],
+                "description": "Forbes is an American business magazine. Published bi-weekly, it features original articles on finance, industry, investing, and marketing topics. Forbes also reports on related subjects such as technology, communications, science, politics, and law. Its headquarters is located in Jersey City, New Jersey."
+            }
+        },
+        {
+            "link": "https://www.eluniversal.com.mx/techbit/tras-el-exito-de-la-mision-crew-dragon-que-sigue-para-spacex",
+            "title": "Tras el éxito de la misión Crew Dragon ¿qué sigue para SpaceX? | El Universal",
+            "snippet": "Por primera vez, una empresa privada logró llevar al espacio a un grupo de astronautas, haciendo historia en la industria aeroespacial. La misión que comenzó ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/A983C3ADC9AA42BDB6AA0D569A96782C",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/A983C3ADC9AA42BDB6AA0D569A96782C"
+            ],
+            "date_published": "2020-08-03T19:01:55.000Z",
+            "source": {
+                "id": "el-universal",
+                "domain": "www.eluniversal.com.mx",
+                "name": "El Universal",
+                "logo": "https://api.breakingapi.com/download/logos/el-universal.png",
+                "locales": [
+                    "es-AR",
+                    "es-CL",
+                    "es-CU",
+                    "es-MX",
+                    "es-PE",
+                    "es-US",
+                    "es-VE"
+                ],
+                "description": "El Universal is a major Mexican newspaper.\nEl Universal was founded by Félix Palavicini and Emilio Rabasa in October 1916, in the city of Santiago de Queretaro to cover the end of the Mexican Revolution and the creation of the new Mexican Constitution."
+            }
+        },
+        {
+            "link": "https://www.msn.com/es-mx/noticias/tecnologia/as%C3%AD-fue-el-exitoso-retorno-de-la-c%C3%A1psula-spacex-a-la-tierra/ar-BB17whny?li=AAggxAT",
+            "title": "Así fue el exitoso retorno de la cápsula SpaceX a la Tierra",
+            "snippet": "Musk, un empresario multimillonario, convirtió a SpaceX en la primera empresa privada en enviar humanos a órbita con el...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/86CE75EA8D6445B4BFADEE61F678BD6A",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/86CE75EA8D6445B4BFADEE61F678BD6A"
+            ],
+            "date_published": "2020-08-03T18:00:00.000Z",
+            "source": {
+                "id": "msnnow",
+                "domain": "www.msn.com",
+                "name": "MSN Money",
+                "logo": "https://api.breakingapi.com/download/logos/msnnow.png",
+                "locales": [
+                    "en-US",
+                    "es-AR",
+                    "es-CL",
+                    "es-CU",
+                    "en-LV",
+                    "es-MX",
+                    "es-US",
+                    "en-IL",
+                    "en-MY",
+                    "en-NA",
+                    "en-NG",
+                    "en-PH",
+                    "en-AU",
+                    "en-CA",
+                    "en-IN",
+                    "en-IE",
+                    "en-NZ",
+                    "en-SG",
+                    "en-ZA",
+                    "en-GH",
+                    "en-PK",
+                    "en-TZ",
+                    "en-GB",
+                    "en-ET",
+                    "en-BW",
+                    "en-UG",
+                    "en-ZW",
+                    "en-KE",
+                    "en-ID",
+                    "fr-FR",
+                    "ja-JP",
+                    "pt-BR",
+                    "es-PE",
+                    "th-TH",
+                    "de-DE",
+                    "es-VE",
+                    "fr-MA",
+                    "fr-CH",
+                    "de-CH",
+                    "fr-SN",
+                    "pt-PT",
+                    "es-CO",
+                    "fr-CA",
+                    "fr-BE",
+                    "it-IT",
+                    "tr-TR",
+                    "ru-RU"
+                ]
+            }
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=HV30sURXAQE",
+            "title": "La nave tripulada Dragon Endeavour regresa a la tierra desde la EEI",
+            "date_published": "2020-08-03T09:59:00.000Z",
+            "source": {
+                "domain": "www.youtube.com"
+            }
+        },
+        {
+            "link": "https://www.voanoticias.com/estadosunidos/como-la-eeuu-volvio-al-espacio-con-sus-propias-aeronaves",
+            "title": "Cómo EE.UU. volvió al espacio con sus propias aeronaves",
+            "snippet": "Después de más de 59 años de enviar astronautas al espacio en sus propias aeronaves, la Administración Nacional de Aeronáutica y Espacio (NASA) de ...",
+            "primary_image_link": "https://api.breakingapi.com/download/images/0704837D4CDB457DAF752B0FACC6F84F",
+            "image_links": [
+                "https://api.breakingapi.com/download/images/0704837D4CDB457DAF752B0FACC6F84F"
+            ],
+            "date_published": "2020-08-03T15:45:00.000Z",
+            "source": {
+                "id": "voz-de-america",
+                "domain": "www.voanoticias.com",
+                "name": "Voz de América",
+                "logo": "https://api.breakingapi.com/download/logos/voz-de-america.png",
+                "locales": [
+                    "es-PE",
+                    "es-CO",
+                    "es-VE",
+                    "es-CL",
+                    "es-CU",
+                    "es-US",
+                    "es-AR",
+                    "es-MX"
+                ],
+                "description": "Voice of America is a U.S. multimedia agency which serves as the United States government institution for non-military, external broadcasting. It is the largest U.S. international broadcaster. VOA produces digital, TV, and radio content in 47 languages which it distributes to affiliate stations around the globe."
+            }
+        }
+    ]
+}
